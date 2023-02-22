@@ -101,8 +101,8 @@ def apply_div_dif(matrix:np.array):
     return matrix
 
 def hermite_interpolation(x_values,y_values,slopes):
-    x_points= [1.3,1.6,1.9]
-    y_points= [0.6200,0.4554,0.2818]
+    x_values= [1.3,1.6,1.9]
+    y_values= [0.6200,0.4554,0.2818]
 
     slopes=[-.0522,-0.5699,-0.5811]
     
